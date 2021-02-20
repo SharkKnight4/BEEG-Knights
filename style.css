@@ -1,0 +1,88 @@
+body{
+    margin:0px;
+    padding-top:900px;
+}
+.profile{
+    width: :200px;
+    margin-bottom:50px;
+    border-radius:50%;
+    border-style:solid;
+        border-color:brown;
+}
+.parallax-inner{
+    display: table-cell;
+    position: relative;
+    vertical-align:middle;
+    text-align:center;
+}
+#wel{
+    position:absolute;
+    height:900px;
+    color: :white;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    opacity:0.83;
+       background: linear-gradient(#00ff80 50%, #ff0066 100%);
+    display:table;
+    width:100%;
+    height: :100%;
+    z-index:9;
+}
+.menu{
+    list-style:none;
+    position: :absolute;
+    font-family: cursive;
+    top:10px;
+    right:30px;
+    z-index:7;
+    cursor: pointer;
+}
+.links{
+    float:left;
+    color: :white;
+    padding-bottom:5px;
+    padding-top: 5px;
+padding-left: 10px;
+    padding-right:10px;
+    font-family:fantasy;
+    Font-size:20px;   
+}
+.links:hover{
+    background-color:aqua;
+}
+.line{
+    background-color:black;
+    height:6px;
+    width:70px;
+    margin:8px auto;
+}
+#bio{
+    padding: 50px;
+    text-align:center;
+}
+p{
+    max-width:450px;
+    margin:25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+h1{
+    font-weight:300;
+    font-size:40px;
+        line-height:1.2;
+     font-family:fantasy;
+}
+h2{
+    font-weight:300;
+    font-size:30px;
+        line-height:1.2;
+    font-family:cursive;
+}
+#name{
+    font-weight:300;
+    font-size:30px;
+        line-height:1.2;
+   
+    font-family: 'MedievalSharp', cursive;}
